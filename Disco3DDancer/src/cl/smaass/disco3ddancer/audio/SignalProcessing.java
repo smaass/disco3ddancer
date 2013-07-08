@@ -1,9 +1,9 @@
-package cl.smaass.disco3ddancer;
+package cl.smaass.disco3ddancer.audio;
 
 public class SignalProcessing {
 	static private FFT transform = new FFT(8);
 	
-	static public Result getFrequencySpectrum(float[] sample, int sampleRate) {
+	static public Result frequencyDomain(float[] sample, int sampleRate) {
 		float[] ivalues = new float[sample.length];
 		if (transform.n != sample.length)
 			transform = new FFT(sample.length);

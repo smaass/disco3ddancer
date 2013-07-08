@@ -1,4 +1,4 @@
-package cl.smaass.disco3ddancer;
+package cl.smaass.experiments.graphics;
 
 import android.content.Context;
 import android.graphics.Canvas;

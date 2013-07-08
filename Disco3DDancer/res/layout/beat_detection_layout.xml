@@ -4,17 +4,11 @@
     android:layout_height="match_parent"
     tools:context=".TravisBeatDetectionActivity" >
 
-    <Button
-        android:id="@+id/captureButton"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/bpmDisplay"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:text="@string/hello_world" />
-    
-    <FrameLayout
-        android:id="@+id/plotView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/captureButton" />
+        android:layout_centerInParent="true"
+        android:textSize="48sp" />
 
 </RelativeLayout>
